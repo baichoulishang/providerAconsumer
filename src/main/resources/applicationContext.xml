@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation=
+               "http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/tx
+                http://www.springframework.org/schema/tx/spring-tx.xsd
+                http://www.springframework.org/schema/context
+                http://www.springframework.org/schema/context/spring-context.xsd
+                http://www.springframework.org/schema/aop
+                http://www.springframework.org/schema/aop/spring-aop.xsd
+                http://www.springframework.org/schema/task
+                http://www.springframework.org/schema/task/spring-task-3.2.xsd ">
+    <!--开启切面-->
+    <aop:aspectj-autoproxy/>
+    <!--使用注解驱动Spring IoC-->
+    <context:annotation-config></context:annotation-config>
+    <!--把扫描到的资源Bean装载进Spring IoC-->
+    <!--这种写法居然也不会报错-->
+    <context:component-scan base-package="com.*"/>
+    <!--<context:component-scan base-package="com.service"/>-->
+
+
+    <!--两个常用的Bean定义-->
+    <!--同样设置了lazy-init="true",因为role在MethodBean中被使用了,作为方法getRole的返回值使用-->
+    <!--而getRole添加了注解@Bean,那么在Spring IoC启动的时候会执行该方法并将返回值作为Bean放在Spring IoC容器中-->
+    <bean id="school" class="com.pojo.School" lazy-init="true">
+        <property name="id" value="20190913163344"/>
+        <property name="address" value="我家的地址"/>
+        <property name="name" value="陈宜康"/>
+    </bean>
+    <bean id="role" class="com.pojo.Role" lazy-init="true">
+        <property name="id" value="20190913115123"/>
+        <property name="note" value="做个削笔机"/>
+        <property name="rolename" value="哈哈哈"/>
+        <property name="school" ref="school"/>
+    </bean>
+
+    <!--BeanPostProcessor定义 -->
+    <bean id="beanPostProcessor" class="com.bean.BeanPostProcessorTest"/>
+
+    <!--DisposableBean定义 -->
+    <bean id="disposableBean" class="com.bean.DisposableBeanImpl"/>
+
+    <bean id="source" class="com.pojo.Source" destroy-method="destroy" init-method="init">
+        <property name="fruit" value="橙汁"/>
+        <property name="sugar" value="少糖"/>
+        <property name="size" value="大杯"/>
+    </bean>
+
+    <!--自定义初始化和销毁方法-->
+    <bean id="juiceMaker2" class="com.pojo.JuiceMaker2" destroy-method="destroy" init-method="init">
+        <property name="beverageShop" value="贡茶"/>
+        <property name="source" ref="source"/>
+    </bean>
+
+
+
+    <!--配置数据源-->
+    <bean id="devDataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url" value="jdbc:oracle:thin:@192.168.1.103:1522:orcl0728"/>
+        <property name="username" value="system"/>
+        <property name="password" value="88888888"/>
+    </bean>
+
+
+    <!--定义SqlSessionFactory-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--配置数据源-->
+        <!--注入数据库连接池.可能会报个错,但是没影响-->
+        <property name="dataSource" ref="devDataSource"/>
+        <!--引入MyBatis的配置文件-->
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
+    </bean>
+
+    <!--配置数据源事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!--注入数据库连接池-->
+        <property name="dataSource" ref="devDataSource"/>
+    </bean>
+
+    <!--使用声明式事务配置的注解驱动.先有事务的Bean,再配置注解驱动-->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <!--注解驱动扫描task-->
+    <task:annotation-driven/>
+    <!--SqlSessionTemplate的配置基于SqlSessionFactory-->
+    <!--现在基本上已经不用了-->
+    <!--<bean name="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">-->
+    <!--    <constructor-arg ref="sqlSessionFactory"/>-->
+    <!--</bean>-->
+
+
+    <!--下面这些配置是为了给sqlMapper工具用的-->
+    <!-- 使用SqlSessionFactory,创建一个SqlSession-->
+    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate" scope="prototype">
+        <constructor-arg index="0" ref="sqlSessionFactory"/>
+    </bean>
+    <!-- 利用SqlSession,创建一个sqlMapper的实例,那么需要用的地方只需要自动注入就可以了.这本来是给sqlMapper工具用的-->
+    <bean id="sqlMapper" class="com.utils.SqlMapper" scope="prototype">
+        <constructor-arg ref="sqlSession"/>
+    </bean>
+
+
+    <!--单独配置roleMapper对象-->
+    <bean id="roleMaper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="com.mapper.RoleMapper"/>
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+        <!--<property name="sqlSessionTemplate" ref=""-->
+    </bean>
+
+
+    <!--采用自动扫描的方式创建mapper bean-->
+    <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--指定扫描哪些包-->
+        <property name="basePackage" value="com.mapper"/>
+        <!--引用SqlSessionFactory-->
+        <!--如果使用了SqlSessionTemplateBeanName,那么这个将失效-->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <!--只有指定注解的mapper才会被扫描成Mapper-->
+        <property name="annotationClass" value="org.springframework.stereotype.Repository"/>
+    </bean>
+
+
+</beans>

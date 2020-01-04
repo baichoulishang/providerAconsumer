@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!-- CSS goes in the document HEAD or added to your external stylesheet -->
+<style type="text/css">
+    table.gridtable {
+        font-family: verdana, arial, sans-serif;
+        font-size: 11px;
+        color: #333333;
+        border-width: 1px;
+        border-color: #666666;
+        border-collapse: collapse;
+    }
+
+    table.gridtable th {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #dedede;
+    }
+
+    table.gridtable td {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #ffffff;
+        transition: background-color 200ms ease-in;
+    }
+
+    table.gridtable td:hover {
+        background-color: #5bc0de;
+    }
+
+    .newTr {
+        transition: all 5s ease-in;
+    }
+</style>
+<body>
+
+<table class="gridtable">
+    <tr>
+        <th>Info Header 1</th>
+        <th>Info Header 2</th>
+        <th>Info Header 444</th>
+    </tr>
+    <tr>
+        <td id="testClick">Text 1A</td>
+        <td>Text 1B</td>
+        <td>Text 1C</td>
+    </tr>
+    <tr>
+        <td>Text 2A</td>
+        <td>Text 2B</td>
+        <td>Text 2C</td>
+    </tr>
+</table>
+
+
+</body>
+<!-- Table goes in the document BODY -->
+<script src="../js/jquery-3.3.1.min.js"></script>
+
+<script>
+
+    $(function () {
+
+        $('.gridtable').append($('' +
+            '<tr class="newTr">\n' +
+            '        <td>Text 2A</td>\n' +
+            '        <td>Text 2B</td>\n' +
+            '        <td>Text 2C</td>\n' +
+            '    </tr>'));
+
+        function inheritPrototype(Child, Parent) {
+            // 对原型对象进行一次浅复制
+            var pro = Object.create(Parent.prototype);
+            // 修改构造函数指向
+            pro.constructor = Child;
+            // 继承该对象。继承Parent的原型。
+            Child.prototype = pro;
+        }
+
+        function Parent() {
+            this.id = '1';
+            this.arr = [1, 2, 3];
+        }
+
+        Parent.prototype.age = '1';
+        Parent.prototype.getAge = function () {
+            console.log("得到了年纪");
+        };
+
+        function Child() {
+            Parent.call(this);
+            this.address = "杭州";
+        }
+
+        inheritPrototype(Child, Parent);
+        Child.prototype.goHome = function () {
+            console.log("到家了");
+        };
+        var child_1 = new Child();
+        var child_2 = new Child();
+        console.log("修改之前");
+        console.log(child_1.arr);
+        console.log(child_2.arr);
+        child_1.arr.push(4);
+        console.log("修改之后");
+        console.log(child_1.arr);
+        console.log(child_2.arr);
+        child_1.goHome();
+
+        function createPerson() {
+            this.id = '11';
+            this.age = '26';
+            this.arrTest = [1, 2, 3];
+            if (typeof this.say != 'function') {
+                // 这里千万不能使用对象字面量
+                // 前面定义的对象的[[Prototype]]指针已经指向了一个原型对象，假如这里
+                // 使用对象字面量，会重写原型的地址，那么前面定义的所有对象都会和新原型切断联系
+                createPerson.prototype.say = function () {
+                    console.log(this.id);
+                }
+                // 这里的代码只会执行一次
+                // 接下来的所有实例（哪怕构造函数没有执行完）都会拥有say属性
+            }
+        }
+
+        var person = new createPerson();
+        person.say();
+
+
+        var name = "hehe";
+        var ok = {
+            name: 'fine',
+            say: function () {
+                var name = 'ddd';
+                return function () {
+                    return this.name;
+                }
+            }
+        };
+        console.log("结果是：" + ok.say()());
+    });
+
+    var name = "全局的";
+
+    var color = "333";
+
+    function parentF() {
+        var color = "222";
+        childF();
+
+        function childF() {
+            var color = "111";
+            console.log(this.color);
+        }
+    }
+
+    function shit2() {
+        shit1();
+    }
+
+    function shit1() {
+        console.log(arguments.callee.caller);
+    }
+
+</script>
+
+</html>
