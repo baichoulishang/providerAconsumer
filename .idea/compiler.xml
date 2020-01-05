@@ -7,7 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="myMaven" />
-        <module name="reviewMaven" />
+        <module name="web-module" />
+        <module name="java-module" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
