@@ -1,0 +1,47 @@
+.newTr {
+    transition: all 5s ease-in;
+}
+
+.slideTest {
+    background: lightskyblue;
+    height: 500px;
+    width: 500px;
+}
+
+.slideTest div {
+    background: #00fa2a;
+    height: 50px;
+    width: 50px;
+}
+
+.slideTest div {
+    float: left;
+    display: inline-block;
+}
+
+.slideTest div:nth-child(even) {
+    background: #00fa2a;
+    height: 50px;
+    width: 50px;
+}
+
+.slideTest div:nth-child(odd) {
+    background: #fa3037;
+    height: 50px;
+    width: 50px;
+}
+
+@-webkit-keyframes glowing {
+    from {
+        -webkit-box-shadow: 0 0 0 rgba(44, 154, 219, 0.3);
+        box-shadow: 0 0 0 rgba(44, 154, 219, 0.3);
+    }
+    50% {
+        -webkit-box-shadow: 0 0 20px rgba(44, 154, 219, 0.8);
+        box-shadow: 0 0 20px rgba(44, 154, 219, 0.8);
+    }
+    to {
+        -webkit-box-shadow: 0 0 0 rgba(44, 154, 219, 0.3);
+        box-shadow: 0 0 0 rgba(44, 154, 219, 0.3);
+    }
+}

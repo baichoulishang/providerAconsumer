@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://www.mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--引入属性文件，用来配置数据库-->
+    <properties resource="jdbc.properties"/>
+    <settings>
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="true"/>
+        <!--下面这些配置能让mapper.xml文件运行时打印sql语句-->
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+    <typeAliases>
+        <!-- 别名 -->
+        <!--<typeAlias type="com.pojo.Role" alias="role"/>-->
+        <!--像下面这样写的话会出现匪夷所思的bug:com/microsoft/schemas/vml/STShadowType-->
+        <!--所以必须精确到具体的类所在的包名-->
+        <!--错误的写法-->
+        <!--<package name="com"/>-->
+        <package name="com.pojo"/>
+        <package name="com.objFactory"/>
+        <package name="com.utils"/>
+    </typeAliases>
+    <!--mybatis-config.xml中自定义对象工厂|-->
+    <!--可以不写全类名-->
+    <objectFactory type="myObjFactory">
+        <!--把参数传进自己的对象工厂中-->
+        <property name="prop" value="123456"/>
+    </objectFactory>
+    <!-- 数据库环境 -->
+    <!--<environments default="development">-->
+    <!--<environment id="development">-->
+    <!--<transactionManager type="JDBC"/>-->
+    <!--<dataSource type="dbcpDataSourceFactory">-->
+    <!--<property name="driver" value="${database.driver}"/>-->
+    <!--<property name="url" value="${database.url}"/>-->
+    <!--<property name="username" value="${database.username}"/>-->
+    <!--<property name="password" value="${database.password}"/>-->
+    <!--</dataSource>-->
+    <!--</environment>-->
+    <!--</environments>-->
+    <mappers>
+        <mapper resource="mapper/RoleMapper.xml"/>
+        <mapper resource="mapper/YwclMapper.xml"/>
+    </mappers>
+</configuration>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+       http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
+    <!-- 扫描所有的controller -->
+    <!--指定一个package进行扫描.也可以配置com.*-->
+    <context:component-scan base-package="com.controller"/>
+
+    <!--设定拦截器-->
+    <!--当出现这些访问地址时，会被拦截-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/my/*.do"/>
+            <bean class="com.intercept.RoleIntercept"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+    <!-- 定义视图解析器 -->
+    <!-- 找到Web工程/WEB-INF/JSP文件夹，且文件结尾为jsp的文件作为映射 -->
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+          p:prefix="/WEB-INF/" p:suffix=""/>
+
+    <!-- 支持文件上传 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- 请求编码格式 -->
+        <property name="defaultEncoding" value="utf-8"></property>
+        <!-- 上传文件大小(单位:字节) -->
+        <property name="maxUploadSize" value="50000000"></property>
+        <!-- 缓冲区大小(单位:KB) -->
+        <property name="maxInMemorySize" value="1024"></property>
+    </bean>
+
+</beans>
