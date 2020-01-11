@@ -1,4 +1,4 @@
-package com.utils;
+package utils;
 
 import org.apache.ibatis.builder.StaticSqlSource;
 import org.apache.ibatis.exceptions.TooManyResultsException;

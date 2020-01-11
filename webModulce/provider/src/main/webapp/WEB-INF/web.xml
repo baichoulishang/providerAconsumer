@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+
+    <!-- log4j配置文件地址 -->
+    <context-param>
+        <param-name>log4jConfigLocation</param-name>
+        <param-value>classpath:/log4j.properties</param-value>
+    </context-param>
+
+
+    <!-- Spring IoC配置文件地址,同时也是Spring AOP的配置地址. -->
+    <!--  因为Spring IoC和Spring AOP都是Spring的组件,所以这个也可以看成Spring的配置地址-->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:applicationContext.xml</param-value>
+    </context-param>
+
+    <!-- Log4j的监听器要放在spring监听器前面 -->
+    <listener>
+        <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
+    </listener>
+    <!--在web工程初始化之前,先完成对Spring IoC容器的初始化-->
+    <!--在web工程初始化之前,先完成对Spring IoC容器的初始化-->
+    <!--在web工程初始化之前,先完成对Spring IoC容器的初始化-->
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+</web-app>

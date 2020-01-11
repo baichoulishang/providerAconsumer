@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- 消费方应用名，用于计算依赖关系，不是匹配条件，不要与提供方一样 -->
+    <dubbo:application name="consumer">
+        <dubbo:parameter key="qos.enable" value="true"/>
+        <dubbo:parameter key="qos.accept.foreign.ip" value="false"/>
+        <dubbo:parameter key="qos.port" value="33333"/>
+    </dubbo:application>
+
+
+    <!--关闭注册中心启动时检查：(注册订阅失败时报错)-->
+    <dubbo:registry address="zookeeper://192.168.1.103:2181" check="false"/>
+    <dubbo:protocol host="192.168.1.103"/>
+    <!--关闭所有服务的启动时检查：(没有提供者时报错)  写在定义服务消费者一方-->
+    <dubbo:consumer check="false"/>
+
+
+    <!--引入rpc文件-->
+    <import resource="classpath:dubbo/rpc.xml"/>
+
+</beans>

@@ -1,4 +1,4 @@
-package com.bean;
+package springLife;
 
 import org.springframework.beans.factory.DisposableBean;
 

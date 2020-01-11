@@ -22,7 +22,6 @@
     <context:annotation-config></context:annotation-config>
     <!--把扫描到的资源Bean装载进Spring IoC-->
     <!--这种写法居然也不会报错-->
-    <context:component-scan base-package="com.*"/>
     <context:component-scan base-package="service"/>
 
 
@@ -42,10 +41,10 @@
     </bean>
 
     <!--BeanPostProcessor定义 -->
-    <bean id="beanPostProcessor" class="com.bean.BeanPostProcessorTest"/>
+    <bean id="beanPostProcessor" class="springLife.BeanPostProcessorTest"/>
 
     <!--DisposableBean定义 -->
-    <bean id="disposableBean" class="com.bean.DisposableBeanImpl"/>
+    <bean id="disposableBean" class="springLife.DisposableBeanImpl"/>
 
     <bean id="source" class="pojo.Source" destroy-method="destroy" init-method="init">
         <property name="fruit" value="橙汁"/>
@@ -102,13 +101,13 @@
         <constructor-arg index="0" ref="sqlSessionFactory"/>
     </bean>
     <!-- 利用SqlSession,创建一个sqlMapper的实例,那么需要用的地方只需要自动注入就可以了.这本来是给sqlMapper工具用的-->
-    <bean id="sqlMapper" class="com.utils.SqlMapper" scope="prototype">
+    <bean id="sqlMapper" class="utils.SqlMapper" scope="prototype">
         <constructor-arg ref="sqlSession"/>
     </bean>
 
 
     <!--单独配置roleMapper对象-->
-    <bean id="roleMaper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+    <bean id="roleMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
         <property name="mapperInterface" value="mapper.RoleMapper"/>
         <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
         <!--<property name="sqlSessionTemplate" ref=""-->
@@ -126,5 +125,6 @@
         <property name="annotationClass" value="org.springframework.stereotype.Repository"/>
     </bean>
 
+    <import resource="classpath:dubbo/provider-config.xml"/>
 
 </beans>

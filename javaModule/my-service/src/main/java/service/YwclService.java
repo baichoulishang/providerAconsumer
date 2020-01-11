@@ -2,10 +2,10 @@ package service;
 
 import api.IYwclService;
 import mapper.YwclMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pojo.YwclCaseVO;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 @Service
@@ -13,7 +13,7 @@ import java.util.List;
 public class YwclService implements IYwclService {
 
     //自动装配mapper
-    @Autowired
+    @Resource
     public YwclMapper ywclMapper;
 
     @Override
