@@ -8,10 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="myMaven" />
         <module name="web-module" />
-        <module name="java-module" />
+        <module name="my-controller" />
+        <module name="my-service" />
+        <module name="my-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="java-module" target="8" />
       <module name="maven" target="8" />
     </bytecodeTargetLevel>
   </component>

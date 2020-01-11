@@ -13,12 +13,12 @@
     </settings>
     <typeAliases>
         <!-- 别名 -->
-        <!--<typeAlias type="com.pojo.Role" alias="role"/>-->
+        <!--<typeAlias type="pojo.Role" alias="role"/>-->
         <!--像下面这样写的话会出现匪夷所思的bug:com/microsoft/schemas/vml/STShadowType-->
         <!--所以必须精确到具体的类所在的包名-->
         <!--错误的写法-->
         <!--<package name="com"/>-->
-        <package name="com.pojo"/>
+        <package name="pojo"/>
         <package name="com.objFactory"/>
         <package name="com.utils"/>
     </typeAliases>

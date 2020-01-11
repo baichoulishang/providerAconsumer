@@ -23,18 +23,18 @@
     <!--把扫描到的资源Bean装载进Spring IoC-->
     <!--这种写法居然也不会报错-->
     <context:component-scan base-package="com.*"/>
-    <!--<context:component-scan base-package="com.service"/>-->
+    <context:component-scan base-package="service"/>
 
 
     <!--两个常用的Bean定义-->
     <!--同样设置了lazy-init="true",因为role在MethodBean中被使用了,作为方法getRole的返回值使用-->
     <!--而getRole添加了注解@Bean,那么在Spring IoC启动的时候会执行该方法并将返回值作为Bean放在Spring IoC容器中-->
-    <bean id="school" class="com.pojo.School" lazy-init="true">
+    <bean id="school" class="pojo.School" lazy-init="true">
         <property name="id" value="20190913163344"/>
         <property name="address" value="我家的地址"/>
         <property name="name" value="陈宜康"/>
     </bean>
-    <bean id="role" class="com.pojo.Role" lazy-init="true">
+    <bean id="role" class="pojo.Role" lazy-init="true">
         <property name="id" value="20190913115123"/>
         <property name="note" value="做个削笔机"/>
         <property name="rolename" value="哈哈哈"/>
@@ -47,18 +47,17 @@
     <!--DisposableBean定义 -->
     <bean id="disposableBean" class="com.bean.DisposableBeanImpl"/>
 
-    <bean id="source" class="com.pojo.Source" destroy-method="destroy" init-method="init">
+    <bean id="source" class="pojo.Source" destroy-method="destroy" init-method="init">
         <property name="fruit" value="橙汁"/>
         <property name="sugar" value="少糖"/>
         <property name="size" value="大杯"/>
     </bean>
 
     <!--自定义初始化和销毁方法-->
-    <bean id="juiceMaker2" class="com.pojo.JuiceMaker2" destroy-method="destroy" init-method="init">
+    <bean id="juiceMaker2" class="pojo.JuiceMaker2" destroy-method="destroy" init-method="init">
         <property name="beverageShop" value="贡茶"/>
         <property name="source" ref="source"/>
     </bean>
-
 
 
     <!--配置数据源-->
@@ -110,7 +109,7 @@
 
     <!--单独配置roleMapper对象-->
     <bean id="roleMaper" class="org.mybatis.spring.mapper.MapperFactoryBean">
-        <property name="mapperInterface" value="com.mapper.RoleMapper"/>
+        <property name="mapperInterface" value="mapper.RoleMapper"/>
         <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
         <!--<property name="sqlSessionTemplate" ref=""-->
     </bean>
@@ -119,7 +118,7 @@
     <!--采用自动扫描的方式创建mapper bean-->
     <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <!--指定扫描哪些包-->
-        <property name="basePackage" value="com.mapper"/>
+        <property name="basePackage" value="mapper"/>
         <!--引用SqlSessionFactory-->
         <!--如果使用了SqlSessionTemplateBeanName,那么这个将失效-->
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>

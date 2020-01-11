@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -11,8 +11,10 @@
     <!--  项目版本号-->
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>java-module</module>
         <module>web-module</module>
+        <module>javaModule/my-api</module>
+        <module>javaModule/my-controller</module>
+        <module>javaModule/my-service</module>
     </modules>
     <!--打包类型-->
     <packaging>pom</packaging>
