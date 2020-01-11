@@ -46,17 +46,6 @@
     <!--DisposableBean定义 -->
     <bean id="disposableBean" class="springLife.DisposableBeanImpl"/>
 
-    <bean id="source" class="pojo.Source" destroy-method="destroy" init-method="init">
-        <property name="fruit" value="橙汁"/>
-        <property name="sugar" value="少糖"/>
-        <property name="size" value="大杯"/>
-    </bean>
-
-    <!--自定义初始化和销毁方法-->
-    <bean id="juiceMaker2" class="pojo.JuiceMaker2" destroy-method="destroy" init-method="init">
-        <property name="beverageShop" value="贡茶"/>
-        <property name="source" ref="source"/>
-    </bean>
 
 
     <!--配置数据源-->

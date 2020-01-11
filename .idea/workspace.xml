@@ -6,372 +6,57 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20565e2b-560b-4fd7-a7e2-b6ef5a42aa0b" name="Default Changelist" comment="前后端分离了">
-      <change afterPath="$PROJECT_DIR$/webModulce/consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/resources/dubbo/consumer-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/resources/dubbo/rpc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModulce/provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModulce/provider/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModulce/provider/src/main/resources/dubbo/provider-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModulce/provider/src/main/resources/dubbo/rpc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModulce/provider/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModulce/provider/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModulce/provider/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModulce/provider/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webModulce/provider/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/java.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="20565e2b-560b-4fd7-a7e2-b6ef5a42aa0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaModule/my-api/src/main/java/api/ExcelExportService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaModule/my-api/src/main/java/api/IBeanService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaModule/my-api/src/main/java/api/IInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaModule/my-api/src/main/java/api/IMyProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/bean/BeanPostProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaModule/my-service/src/main/java/springLife/BeanPostProcessorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/bean/DisposableBeanImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaModule/my-service/src/main/java/springLife/DisposableBeanImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/controller/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/test/SuperUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/test/SuperUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/utils/SqlMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaModule/my-service/src/main/java/utils/SqlMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaModule/my-service/src/main/java/service/BeanService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaModule/my-service/src/main/java/service/Interceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaModule/my-service/src/main/java/service/MyProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaModule/my-service/src/main/java/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaModule/my-service/src/main/java/service/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaModule/my-service/src/main/java/service/YwclService.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaModule/my-service/src/main/java/service/YwclService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/resources/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/resources/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/resources/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/resources/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/ECharts/echartsIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/WEB-INF/ECharts/echartsIndex.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/WebSocket/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/WEB-INF/WebSocket/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/Xadmin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/WEB-INF/Xadmin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/html/cssTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/WEB-INF/html/cssTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/html/自定义的页面.html" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/WEB-INF/html/自定义的页面.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/jsp/vue.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/WEB-INF/jsp/vue.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/layuiExperiment/layui.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/WEB-INF/layuiExperiment/layui.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/test..jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/WEB-INF/test..jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/css/annotations/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/css/annotations/popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/css/annotations/popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/css/annotations/popup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/css/highcharts.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/css/highcharts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/css/highcharts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/css/highcharts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/css/stocktools/gui.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/css/stocktools/gui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/css/stocktools/gui.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/css/stocktools/gui.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/css/themes/dark-unica.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/css/themes/dark-unica.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/css/themes/dark-unica.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/css/themes/dark-unica.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/css/themes/grid-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/css/themes/grid-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/css/themes/grid-light.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/css/themes/grid-light.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/css/themes/sand-signika.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/css/themes/sand-signika.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/css/themes/sand-signika.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/css/themes/sand-signika.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/highcharts-3d.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/highcharts-3d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/highcharts-3d.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/highcharts-3d.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/highcharts-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/highcharts-more.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/highcharts-more.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/highcharts-more.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/highcharts.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/highcharts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/highcharts.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/highcharts.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/lib/canvg.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/lib/canvg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/lib/canvg.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/lib/canvg.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/lib/jspdf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/lib/jspdf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/lib/jspdf.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/lib/jspdf.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/lib/rgbcolor.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/lib/rgbcolor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/lib/rgbcolor.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/lib/rgbcolor.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/lib/svg2pdf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/lib/svg2pdf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/lib/svg2pdf.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/lib/svg2pdf.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/accessibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/accessibility.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/accessibility.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/accessibility.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/annotations-advanced.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/annotations-advanced.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/annotations-advanced.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/annotations-advanced.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/annotations.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/annotations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/annotations.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/annotations.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/arrow-symbols.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/arrow-symbols.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/arrow-symbols.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/arrow-symbols.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/boost-canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/boost-canvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/boost-canvas.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/boost-canvas.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/boost.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/boost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/boost.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/boost.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/broken-axis.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/broken-axis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/broken-axis.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/broken-axis.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/bullet.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/bullet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/bullet.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/bullet.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/current-date-indicator.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/current-date-indicator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/current-date-indicator.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/current-date-indicator.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/cylinder.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/cylinder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/cylinder.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/cylinder.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/data.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/data.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/datagrouping.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/datagrouping.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/datagrouping.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/datagrouping.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/debugger.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/debugger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/debugger.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/debugger.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/dependency-wheel.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/dependency-wheel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/dependency-wheel.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/dependency-wheel.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/dotplot.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/dotplot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/dotplot.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/dotplot.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/drag-panes.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/drag-panes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/drag-panes.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/drag-panes.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/draggable-points.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/draggable-points.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/draggable-points.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/draggable-points.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/drilldown.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/drilldown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/drilldown.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/drilldown.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/export-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/export-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/export-data.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/export-data.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/exporting.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/exporting.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/exporting.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/exporting.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/full-screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/full-screen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/full-screen.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/full-screen.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/funnel.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/funnel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/funnel.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/funnel.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/funnel3d.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/funnel3d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/funnel3d.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/funnel3d.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/gantt.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/gantt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/gantt.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/gantt.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/grid-axis.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/grid-axis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/grid-axis.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/grid-axis.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/heatmap.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/heatmap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/heatmap.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/heatmap.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/histogram-bellcurve.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/histogram-bellcurve.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/histogram-bellcurve.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/histogram-bellcurve.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/item-series.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/item-series.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/item-series.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/item-series.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/networkgraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/networkgraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/networkgraph.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/networkgraph.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/no-data-to-display.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/no-data-to-display.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/no-data-to-display.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/no-data-to-display.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/offline-exporting.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/offline-exporting.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/offline-exporting.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/offline-exporting.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/oldie-polyfills.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/oldie-polyfills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/oldie-polyfills.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/oldie-polyfills.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/oldie.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/oldie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/oldie.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/oldie.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/organization.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/organization.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/organization.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/organization.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/overlapping-datalabels.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/overlapping-datalabels.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/overlapping-datalabels.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/overlapping-datalabels.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/parallel-coordinates.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/parallel-coordinates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/parallel-coordinates.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/parallel-coordinates.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/pareto.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/pareto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/pareto.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/pareto.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/pathfinder.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/pathfinder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/pathfinder.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/pathfinder.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/pattern-fill.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/pattern-fill.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/pattern-fill.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/pattern-fill.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/price-indicator.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/price-indicator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/price-indicator.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/price-indicator.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/pyramid3d.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/pyramid3d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/pyramid3d.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/pyramid3d.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/sankey.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/sankey.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/sankey.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/sankey.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/series-label.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/series-label.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/series-label.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/series-label.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/solid-gauge.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/solid-gauge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/solid-gauge.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/solid-gauge.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/sonification.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/sonification.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/sonification.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/sonification.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/static-scale.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/static-scale.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/static-scale.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/static-scale.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/stock-tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/stock-tools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/stock-tools.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/stock-tools.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/stock.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/stock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/stock.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/stock.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/streamgraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/streamgraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/streamgraph.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/streamgraph.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/sunburst.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/sunburst.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/sunburst.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/sunburst.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/tilemap.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/tilemap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/tilemap.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/tilemap.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/timeline.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/timeline.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/timeline.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/treegrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/treegrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/treegrid.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/treegrid.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/treemap.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/treemap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/treemap.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/treemap.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/variable-pie.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/variable-pie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/variable-pie.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/variable-pie.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/variwide.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/variwide.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/variwide.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/variwide.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/vector.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/vector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/vector.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/vector.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/venn.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/venn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/venn.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/venn.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/windbarb.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/windbarb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/windbarb.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/windbarb.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/wordcloud.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/wordcloud.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/wordcloud.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/wordcloud.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/xrange.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/xrange.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/modules/xrange.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/modules/xrange.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/avocado.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/avocado.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/avocado.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/avocado.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/dark-blue.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/dark-blue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/dark-blue.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/dark-blue.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/dark-green.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/dark-green.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/dark-green.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/dark-green.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/dark-unica.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/dark-unica.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/dark-unica.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/dark-unica.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/gray.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/gray.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/gray.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/gray.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/grid-light.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/grid-light.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/grid-light.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/grid-light.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/grid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/grid.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/grid.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/sand-signika.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/sand-signika.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/sand-signika.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/sand-signika.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/skies.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/skies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/skies.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/skies.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/sunset.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/sunset.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Highcharts/themes/sunset.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Highcharts/themes/sunset.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Xadmin/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Xadmin/css/font.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Xadmin/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Xadmin/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Xadmin/css/theme1.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Xadmin/css/theme1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Xadmin/css/theme2.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Xadmin/css/theme2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Xadmin/css/theme3.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Xadmin/css/theme3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Xadmin/css/theme4.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Xadmin/css/theme4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Xadmin/css/theme5.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Xadmin/css/theme5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Xadmin/css/xadmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Xadmin/css/xadmin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Xadmin/fonts/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Xadmin/fonts/iconfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Xadmin/fonts/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Xadmin/fonts/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Xadmin/fonts/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Xadmin/fonts/iconfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Xadmin/fonts/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Xadmin/fonts/iconfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Xadmin/images/aiwrap.png" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Xadmin/images/aiwrap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Xadmin/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Xadmin/images/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Xadmin/js/xadmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Xadmin/js/xadmin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/Xadmin/js/xcity.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/Xadmin/js/xcity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/css/bootstrap-table.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/css/bootstrap-table.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/css/bootstrap-theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/css/bootstrap-theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/css/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/css/buttons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/css/switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/css/switch.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/css/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/css/table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/js/echarts.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/js/echarts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/js/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/js/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/js/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/css/layui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/css/layui.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/css/layui.mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/css/modules/code.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/css/modules/code.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/css/modules/laydate/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/css/modules/layer/default/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/css/modules/layer/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/font/iconfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/font/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/font/iconfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/font/iconfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/font/iconfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/font/iconfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/0.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/10.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/11.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/12.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/12.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/13.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/13.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/14.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/14.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/15.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/15.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/16.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/16.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/17.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/17.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/18.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/18.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/19.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/19.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/20.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/20.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/21.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/21.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/22.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/22.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/23.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/23.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/24.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/24.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/25.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/25.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/26.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/26.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/27.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/27.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/28.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/28.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/29.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/29.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/3.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/30.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/30.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/31.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/31.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/32.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/32.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/33.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/33.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/34.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/34.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/35.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/35.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/36.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/36.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/37.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/37.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/38.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/38.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/39.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/39.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/4.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/40.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/40.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/41.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/41.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/42.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/42.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/43.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/43.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/44.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/44.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/45.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/45.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/46.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/46.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/47.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/47.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/48.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/48.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/49.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/49.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/5.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/50.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/50.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/51.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/51.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/52.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/52.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/53.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/53.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/54.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/54.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/55.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/55.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/56.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/56.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/57.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/57.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/58.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/58.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/59.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/59.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/6.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/60.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/60.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/61.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/61.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/62.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/62.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/63.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/63.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/64.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/64.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/65.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/65.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/66.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/66.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/67.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/67.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/68.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/68.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/69.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/69.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/7.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/70.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/70.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/71.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/71.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/8.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/8.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/images/face/9.gif" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/images/face/9.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/element.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/flow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/laydate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/layedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/layedit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/layer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/laypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/laypage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/laytpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/rate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/transfer.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/transfer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/tree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/lay/modules/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/layui.all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/layui/layui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/core/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/core/test.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-module/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-api/src/main/java/api/IYwclService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-api/src/main/java/mapper/SchoolMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-api/src/main/java/mapper/YwclMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-api/src/main/java/pojo/Blender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-api/src/main/java/pojo/JuiceMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-api/src/main/java/pojo/JuiceMaker2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-api/src/main/java/pojo/PageParams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-api/src/main/java/pojo/RoleParams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-api/src/main/java/pojo/Source.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-api/src/main/java/pojo/YwclCaseVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/IOTest/RedisClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/IOTest/RedisClient1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/IOTest/RedisClient2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/IOTest/RedisServer1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/IOTest/RedisServer2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/IOTest/ServerConnect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/IOTest/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/WebSocket/WSServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/bean/methodBean/MethodBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/controller/FileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/controller/WebSocketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/controller/YwclController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/controller/eChartsModule/EchartsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/test/ClassLoaderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/test/JdkProxyExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/test/ProductObservable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/test/SuperUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/test/VolatileBarrierExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/test/cssSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/utils/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/utils/DbcpDataSourceFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/utils/FreeProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/utils/FunnelRateLimiter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/utils/JdbcUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/utils/JsonResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/utils/MyCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/utils/PinYinUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/utils/SqlSessionFactoryUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/utils/StaticDispatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/utils/SuperUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/utils/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/utils/TrieTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-service/src/main/java/service/YwclService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-service/src/main/resources/mapper/SchoolMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/my-service/src/main/resources/mapper/YwclMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModulce/consumer/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/consumer/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModulce/provider/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/provider/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModulce/provider/src/main/resources/dubbo/rpc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/provider/src/main/resources/dubbo/rpc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModulce/provider/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webModulce/provider/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -744,7 +429,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -866,7 +551,8 @@
       <workItem from="1578655285479" duration="5720000" />
       <workItem from="1578662808280" duration="2870000" />
       <workItem from="1578700441386" duration="758000" />
-      <workItem from="1578701475742" duration="7585000" />
+      <workItem from="1578701475742" duration="8341000" />
+      <workItem from="1578721642990" duration="1325000" />
     </task>
     <task id="LOCAL-00001" summary="前后端分离了">
       <created>1578217288209</created>
@@ -882,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578217503677</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="前后端分离了">
+      <created>1578709636511</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578709636511</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -929,22 +622,26 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="752" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578663233484" />
-    <state x="755" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578702951519">
+    <state x="755" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578721880120">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="755" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578702951519" />
+    <state x="755" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578721880120" />
+    <state x="780" y="258" key="#xdebugger.evaluate" timestamp="1578722508486">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="780" y="258" key="#xdebugger.evaluate/0.0.2048.1112@0.0.2048.1112" timestamp="1578722508486" />
     <state x="779" y="425" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576289539548">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="779" y="425" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2048.1112@0.0.2048.1112" timestamp="1576289539548" />
-    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1578709495807">
+    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1578723004803">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1578709495807" />
-    <state width="654" height="466" key="DebuggerActiveHint" timestamp="1576997268516">
+    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1578723004803" />
+    <state width="654" height="466" key="DebuggerActiveHint" timestamp="1578722497981">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="654" height="466" key="DebuggerActiveHint/0.0.2048.1112@0.0.2048.1112" timestamp="1576997268516" />
+    <state width="654" height="466" key="DebuggerActiveHint/0.0.2048.1112@0.0.2048.1112" timestamp="1578722497981" />
     <state x="771" y="249" key="DetectedRootsChooserDialog" timestamp="1578662639173">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -961,70 +658,70 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="798" y="261" key="Github.UntrackedFilesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578103204551" />
-    <state width="2005" height="370" key="GridCell.Tab.0.bottom" timestamp="1578709467566">
+    <state width="2005" height="293" key="GridCell.Tab.0.bottom" timestamp="1578723012910">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="370" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578709467566" />
-    <state width="2005" height="370" key="GridCell.Tab.0.center" timestamp="1578709467566">
+    <state width="2005" height="293" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578723012910" />
+    <state width="2005" height="293" key="GridCell.Tab.0.center" timestamp="1578723012910">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="370" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578709467566" />
-    <state width="2005" height="370" key="GridCell.Tab.0.left" timestamp="1578709467566">
+    <state width="2005" height="293" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578723012910" />
+    <state width="2005" height="293" key="GridCell.Tab.0.left" timestamp="1578723012910">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="370" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578709467566" />
-    <state width="2005" height="370" key="GridCell.Tab.0.right" timestamp="1578709467566">
+    <state width="2005" height="293" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578723012910" />
+    <state width="2005" height="293" key="GridCell.Tab.0.right" timestamp="1578723012910">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="370" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578709467566" />
-    <state width="1764" height="130" key="GridCell.Tab.1.bottom" timestamp="1578709300077">
+    <state width="2005" height="293" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578723012910" />
+    <state width="1764" height="226" key="GridCell.Tab.1.bottom" timestamp="1578723005785">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1764" height="130" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578709300077" />
-    <state width="1764" height="130" key="GridCell.Tab.1.center" timestamp="1578709300077">
+    <state width="1764" height="226" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578723005785" />
+    <state width="1764" height="226" key="GridCell.Tab.1.center" timestamp="1578723005785">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1764" height="130" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578709300077" />
-    <state width="1764" height="130" key="GridCell.Tab.1.left" timestamp="1578709300077">
+    <state width="1764" height="226" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578723005785" />
+    <state width="1764" height="226" key="GridCell.Tab.1.left" timestamp="1578723005785">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1764" height="130" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578709300077" />
-    <state width="1764" height="130" key="GridCell.Tab.1.right" timestamp="1578709300077">
+    <state width="1764" height="226" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578723005785" />
+    <state width="1764" height="226" key="GridCell.Tab.1.right" timestamp="1578723005785">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1764" height="130" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578709300077" />
-    <state width="1764" height="130" key="GridCell.Tab.2.bottom" timestamp="1578709300078">
+    <state width="1764" height="226" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578723005785" />
+    <state width="1764" height="226" key="GridCell.Tab.2.bottom" timestamp="1578723005786">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1764" height="130" key="GridCell.Tab.2.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578709300078" />
-    <state width="1764" height="130" key="GridCell.Tab.2.center" timestamp="1578709300077">
+    <state width="1764" height="226" key="GridCell.Tab.2.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578723005786" />
+    <state width="1764" height="226" key="GridCell.Tab.2.center" timestamp="1578723005786">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1764" height="130" key="GridCell.Tab.2.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578709300077" />
-    <state width="1764" height="130" key="GridCell.Tab.2.left" timestamp="1578709300077">
+    <state width="1764" height="226" key="GridCell.Tab.2.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578723005786" />
+    <state width="1764" height="226" key="GridCell.Tab.2.left" timestamp="1578723005786">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1764" height="130" key="GridCell.Tab.2.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578709300077" />
-    <state width="1764" height="130" key="GridCell.Tab.2.right" timestamp="1578709300077">
+    <state width="1764" height="226" key="GridCell.Tab.2.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578723005786" />
+    <state width="1764" height="226" key="GridCell.Tab.2.right" timestamp="1578723005786">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1764" height="130" key="GridCell.Tab.2.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578709300077" />
-    <state width="1764" height="130" key="GridCell.Tab.3.bottom" timestamp="1578709300078">
+    <state width="1764" height="226" key="GridCell.Tab.2.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578723005786" />
+    <state width="1764" height="226" key="GridCell.Tab.3.bottom" timestamp="1578723005786">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1764" height="130" key="GridCell.Tab.3.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578709300078" />
-    <state width="1764" height="130" key="GridCell.Tab.3.center" timestamp="1578709300078">
+    <state width="1764" height="226" key="GridCell.Tab.3.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578723005786" />
+    <state width="1764" height="226" key="GridCell.Tab.3.center" timestamp="1578723005786">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1764" height="130" key="GridCell.Tab.3.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578709300078" />
-    <state width="1764" height="130" key="GridCell.Tab.3.left" timestamp="1578709300078">
+    <state width="1764" height="226" key="GridCell.Tab.3.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578723005786" />
+    <state width="1764" height="226" key="GridCell.Tab.3.left" timestamp="1578723005786">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1764" height="130" key="GridCell.Tab.3.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578709300078" />
-    <state width="1764" height="130" key="GridCell.Tab.3.right" timestamp="1578709300078">
+    <state width="1764" height="226" key="GridCell.Tab.3.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578723005786" />
+    <state width="1764" height="226" key="GridCell.Tab.3.right" timestamp="1578723005786">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1764" height="130" key="GridCell.Tab.3.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578709300078" />
+    <state width="1764" height="226" key="GridCell.Tab.3.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578723005786" />
     <state x="626" y="182" key="NewModule_or_Project.wizard" timestamp="1578662131824">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -1045,10 +742,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="746" y="298" width="540" height="524" key="StructurePopup/0.0.2048.1112@0.0.2048.1112" timestamp="1576242889106" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1578701358863">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1578709645075">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1578701358863" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1578709645075" />
     <state x="818" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578217514669">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -1061,18 +758,18 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="755" y="309" width="538" height="502" key="extract.method.dialog/0.0.2048.1112@0.0.2048.1112" timestamp="1576976796927" />
-    <state x="703" y="294" width="782" height="600" key="find.popup" timestamp="1578708325343">
+    <state x="703" y="294" width="782" height="600" key="find.popup" timestamp="1578722164724">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="703" y="294" width="782" height="600" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1578708325343" />
+    <state x="703" y="294" width="782" height="600" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1578722164724" />
     <state x="285" y="120" width="1123" height="818" key="new project wizard" timestamp="1578701777753">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="285" y="120" width="1123" height="818" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1578701777753" />
-    <state x="686" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1578707373148">
+    <state x="686" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1578722248181">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="686" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1578707373148" />
+    <state x="686" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1578722248181" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1081,6 +778,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/test/SuperUtil.java</url>
           <line>37</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javaModule/my-controller/src/main/java/com/controller/RoleController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

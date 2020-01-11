@@ -28,8 +28,4 @@
         <!--把参数传进自己的对象工厂中-->
         <property name="prop" value="123456"/>
     </objectFactory>
-    <mappers>
-        <mapper resource="mapper/RoleMapper.xml"/>
-        <mapper resource="mapper/YwclMapper.xml"/>
-    </mappers>
 </configuration>

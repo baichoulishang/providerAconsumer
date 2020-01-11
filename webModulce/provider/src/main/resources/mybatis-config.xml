@@ -22,7 +22,5 @@
     </typeAliases>
     <mappers>
         <mapper resource="mapper/RoleMapper.xml"/>
-        <mapper resource="mapper/YwclMapper.xml"/>
-        <mapper resource="mapper/SchoolMapper.xml"/>
     </mappers>
 </configuration>
